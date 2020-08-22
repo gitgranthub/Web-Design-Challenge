@@ -1,1 +1,4 @@
 # Empty CSS file for your own CSS
+.classWithPad { 
+    margin:30px; padding:30px;
+}
