@@ -27,17 +27,17 @@
 						Plots
 					  </a>
 					  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Plot 1</a>
-						<a class="dropdown-item" href="#">Plot 2</a>
-						<a class="dropdown-item" href="#">Plot 3</a>
-						<a class="dropdown-item" href="#">Plot 4</a>
+						<a class="dropdown-item" href="temp.html">Max Temperature</a>
+						<a class="dropdown-item" href="humidity.html">Humidity</a>
+						<a class="dropdown-item" href="cloud.html">Cloudiness</a>
+						<a class="dropdown-item" href="wind.html">Wind Speed</a>
 					  </div>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link mx-3" href="#">Comparison</a>
+					  <a class="nav-link mx-3" href="compare.html">Comparison</a>
 					</li>
 					<li class="nav-item">
-					  <a class="nav-link mx-3" href="#">Data</a>
+					  <a class="nav-link mx-3" href="data.html">Data</a>
 					</li>
 				  </ul>
 				</div>
@@ -46,34 +46,40 @@
 	</div>
 	<div class="row">
 				<div class="col-md-8">
-					<h3>
-						Summary: Latitude vs. X
-					</h3>
-					<div class="image-wrapper float-left pr-3">
-						<img src="images/lat_temp.png" width="392" height="282" alt="temp">
-					</div>
-						<div class="single-post-content-wrapper p-3">
-							Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. I used Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
-							<br><br>
-							I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
-							Take a look at the series of scatter plots I created to showcase the weather relationships.
+					<div>
+						<h3>
+							Summary: Latitude vs. X
+						</h3>
+						<div class="about-border"></div>
+						<div class="vizcards">
+							<div class="image-wrapper float-left pr-3">
+								<img src="images/lat_temp.png" width="392" height="282" alt="temp">
+							</div>
+							<div class="single-post-content-wrapper p-3">
+								Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. I used Python requests, APIs, and JSON traversals to answer a fundamental question: "What's the weather like as we approach the equator?"
+								<br><br>
+								I created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, I utilized a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+								Take a look at the series of scatter plots I created to showcase the weather relationships.
+							</div>
 						</div>
+					</div>
 				</div>
 				
 				<div class="col-lg-4">
 					<h3>Visualizations</h3>
 					<div class="card-columns">
 						<div class="card" style="width: 100%">
-							<img class="card-img" src="images/lat_temp.png" alt="temp">
+							<img class="card-img border border-light" src="images/lat_temp.png" alt="temp">
+							<a href="temp.html"></a>
 						</div>
 						<div class="card" style="width: 100%">
-							<img class="card-img" src="images/lat_clouds.png" alt="clouds">
+							<img class="card-img border border-light" src="images/lat_clouds.png" alt="clouds">
 						</div>
 						<div class="card" style="width: 100%">
-							<img class="card-img" src="images/lat_wind.png" alt="wind">
+							<img class="card-img border border-light" src="images/lat_wind.png" alt="wind">
 						</div>
 						<div class="card" style="width: 100%">
-							<img class="card-img" src="images/lat_humidity.png" alt="humidity">
+							<img class="card-img border border-light" src="images/lat_humidity.png" alt="humidity">
 						</div>
 					</div>
 				</div>

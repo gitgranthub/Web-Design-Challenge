@@ -29,3 +29,17 @@
     margin-top: 50px; 
     margin-left: -210px;
 } 
+.about-border {
+    position: absolute;
+    display: block;
+    width: 400px;
+    height: 1px;
+    padding: 0px;
+    background: #000000;
+    /*
+    margin: 20px auto;*/
+}
+.vizcards { 
+    position: relative; 
+    top: 40px; 
+} 
