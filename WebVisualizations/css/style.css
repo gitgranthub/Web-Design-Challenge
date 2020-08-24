@@ -64,3 +64,7 @@
     content: "";
     background-color: rgba(0,0,0,0);
 }
+.gencenter {
+    position: relative;
+    scale: 25%;
+}
