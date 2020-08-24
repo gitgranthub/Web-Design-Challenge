@@ -4,7 +4,9 @@
     margin:30px; padding:30px;
 }
 .downbit {
-    line-height: 6em;
+    position: relative; 
+    top:20px;
+    padding-bottom: 25px;
 }
 .datamove {
     position: absolute; 
@@ -66,5 +68,8 @@
 }
 .gencenter {
     position: relative;
-    scale: 25%;
+    top:20px;
+}
+.navbar-custom {
+    background-color: #707070;
 }
